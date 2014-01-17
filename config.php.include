@@ -1,0 +1,8 @@
+<?php
+set_time_limit(0);
+$fb_config = array(
+    'appId' => 'YOUR_APP_ID', // You need to optain this app id from: https://developers.facebook.com/apps/
+    'secret' => 'YOUR_APP_SECRET', // You need to optain this app id from: https://developers.facebook.com/apps/
+    'fileUpload' => false, // optional
+    'allowSignedRequest' => false, // optional, but should be set to false for non-canvas apps
+);
